@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b91ec20fc3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        header{
+            background-image: url(./pexels-chan-walrus-958546.jpg);
+            background-size: cover;
+            height:800px;
+            padding-top:10px;
+            padding-left: 20px;
+            color:white;
+        }
+        .div1{
+            display: flex;
+        }
+        .icon{
+            font-size: 40px;
+            margin-right:30px;
+        }
+        .uber_eats{
+            margin-right: 700px;
+            font-size: 40px;
+            margin-left: 40px;
+            font-weight: bold;
+        }
+        .login{
+            height:40px;
+            width:120px;
+            font-size: 20px;
+            padding:10px;
+            background-color: white;
+            color:black;
+            border-radius: 20px;
+            text-align: center;
+            margin-top:40px ;
+            margin-left: 170px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 25px;
+            background-color: black;
+            color: white;
+        }
+        .user{
+            margin-right:12px;
+            color: white;
+        }
+        .signin{
+            margin-left: 20px;
+            background-color: black;
+            color: white;
+        }
+        .div2{
+            margin-top: 160px;
+        }
+        .search_cont{
+            display: flex;
+            margin-left: 45px;
+        }
+        .order{
+            font-size: 50px;
+            font-weight: bold;
+            margin-left: 40px;
+            margin-top:60px;
+        }
+        .order:hover{
+            color:dodgerblue;
+        }
+        .add{
+            height: 50px;
+            width: 500px;
+            margin-left: 40px;
+            border-width: 0px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .icon_ele{
+            background-color: white;
+            height:52px;
+            width:50px;
+            border-width:0px;
+            margin-right:-40px;
+            text-align: center;
+        }
+        .icon2{
+            font-size:30px;
+            color:black;
+            margin-top:10px;
+        }
+        .deliver{
+            margin-left: 15px;
+            width:170px ;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .search{
+            border-radius: 10px;
+            height: 55px;
+            width: 150px;
+            margin-left: 18px;
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+            background-color: black;
+        }
+
+        .pictures{
+            display: flex;
+            gap: 77px;
+        }
+        .p1{
+            height: 250px;
+            width: 450px;
+            margin-top: 80px;
+        }
+        .p2{
+            height: 250px;
+            width: 450px; 
+            margin-top: 80px;
+        }
+        .p3{
+            height: 250px;
+            width: 450px;
+            margin-top: 80px;
+        }
+         .a1{
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 80px;
+            margin-bottom:20px;
+        } 
+       
+        .names{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-left: 190px;
+            font-weight: bold;
+            font-size:20px ;
+        }
+        .n1{
+            font-weight:bold ;
+            font-size: 20px;
+        }
+        .countries{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-left: 190px;
+            font-weight:bold ;
+            font-size: 20px;
+        }
+        
+         .lastbox{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-left: 900px;
+            margin-top: -350px;
+            font-size: 20px;
+        } 
+        .lastbox2{
+            margin-left: 200px;
+            display: flex;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .terms{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 80px;
+            grid-template-rows: auto auto;
+            font-size: 17px;
+        }
+        .policy{
+            margin-left: 300px;
+        }
+        .fb:hover{
+        
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="div1">            
+            <p class="uber_eats"><i class="fa-solid fa-bars icon"></i>Uber <b>Eats</b></p>  
+            <p class="login"><i class="fa-solid fa-user user"></i>Login</p>
+            <p class=" login signin">Sign in</p> 
+        </div>
+        <div class="div2">
+            <p class="order">Order delivery near you</p>
+            <div class="search_cont">
+            <span class="icon_ele"><i class="fa-solid fa-location-dot icon2"></i></span>
+            <input class="add" type="text" placeholder="Enter delivery address">
+            <select class="deliver">
+                <option>Deliver now</option>
+                <option>Schedule later</option>
+            </select>
+            <button class="search">Search here</button>
+            </div>
+            <p style="margin-left: 50px; margin-top: 30px; font-weight: bold; font-size: 20px;">Or <u>Sign in</u></p>  
+        </div>
+        </header>
+         <div class="pictures">
+            <div><img class="p1" src="./feed employee.jpg">
+            <p style="font-weight: bold; font-size: 30px; margin-left: 80px; margin-top: 5px;">Feed your employees</p>
+            <a class="a1" href="https://www.uber.com/in/en/business/solutions/eats/overview/">Create a business account</a>
+        </div>
+
+            <div><img class="p2" src="./kitchen.jpg">
+            <p style="font-weight: bold; font-size: 30px; margin-left: 50px; margin-top: 5px;">Your restaurant, delivered</p>
+            <a style="margin-left: 130px;" class="a1" href="https://merchants.ubereats.com/in/en/s/signup/">Add your restaurant</a>
+        </div>
+
+           <div><img class="p3" src="./delivery.jpg">
+           <p style="font-weight: bold; font-size: 30px; margin-left: 70px; margin-top: 5px;">Deliver with Uber eats</p>
+           <a style="margin-left: 130px;" class="a1" href="https://www.uber.com/in/en/deliver/">Sign up to delivery</a>
+        </div>
+         </div>
+
+         <div class="cities">
+            <p style="font-weight: bold; font-size: 40px; margin-left: 40px;">Cities near me</p>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1I7VcCBEWuPpxPDwgTkXww02I0WE&hl=en&ehbc=2E312F" width="1500" height="480"></iframe>
+         </div>
+         <div class="names">
+            <p>Los Angeles</p>
+            <p>Vernon</p>
+            <p>Commerce</p>
+            <p>Bell Gardens</p>
+            <p>Alhambra</p>
+            <p>South Pasadena</p>
+            <p>Montebello</p>
+            <p>Downey</p>
+            <p>Temple City</p>
+            <p>San Marino</p>
+            <p>Pico Rivera</p>
+            <p>Lynwood</p>
+            <p>Lynwood</p>
+            <p>Lynwood</p>
+            <p>Whittier</p>
+            <p>El-Monte</p>
+            <p>Rosemead</p>
+            <p>Valinda</p>
+            <p>Baldwinpark</p>
+            <p>Azusa</p>
+            <p>Covina</p>
+            <p>South San Jose Hills</p>
+            <p>Santa Fe Springs</p>
+            <p>Santa Monica</p>
+         </div>
+         
+          <p style="font-weight: bold; font-size: 40px; margin-left: 40px;">Countries with Uber Eats</p>
+         <div class="countries">
+            <p>Australia</p>
+            <p> Belgium</p>
+            <p>Canada</p>
+            <p>Chile</p>
+            <p>Costa Rica</p>
+            <p>Costa Rica</p>
+            <p>Dominican Republic</p>
+            <p>Ecuador</p>
+            <p>El Salvador</p>
+            <p>France</p>
+            <p>Germany</p>
+            <p>Guatemala</p>
+            <p>Ireland</p>
+            <p>Italy</p>
+            <p>Japan</p>
+            <p>Kenya</p>
+            <p>Mexico</p>
+            <p>Netherlands</p>
+            <p>New Zealand</p>
+            <p>Panama</p>
+            <p>Poland</p>
+            <p>Portugal</p>
+            <p>South Africa</p>
+            <p>Spain</p>
+            <p>Sri Lanka</p>
+            <p>Sweden</p>
+            <p>Switzerland</p>
+            <p>Taiwan(ROC)</p>
+         </div>
+         <hr>
+         
+            <h1 style="margin-left: 200px; margin-top: 80px;">Uber Eats</h1>
+            <img style="margin-left: 80px; margin-top: 80px;" src="./app store.png" height="150px" width="150px">
+            <img src="./google play.png" height="150px" width="150px">
+            <div class="lastbox">
+            <p>Get Help</p>
+            <p>Buy gift cards</p>
+            <p>Add your restaurant</p>
+            <p>Sign up to deliver</p>
+            <p>Create a business account</p>
+            <p>Promotions</p>
+            <p>Restaurants near me</p>
+            <p>View all cities</p>
+            <p>View all countries</p>
+            <p>Pickup near me</p>
+            <p>About Uber Eats</p>
+            <p>English</p>
+         </div>
+        <hr>
+        <div class="lastbox2">
+            <i style="font-size: 30px;" class="fa-brands fa-facebook fb" ></i>
+            <i style="font-size: 30px;" class="fa-brands fa-twitter twitter"></i>
+            <i style="font-size: 30px;" class="fa-brands fa-instagram insta"></i> 
+            <div class="terms">
+                <p class="policy">Privacy Policy</p>
+                <p>Terms</p>
+                <p>Pricing</p>
+                <p>Do not sell or share my personal information</p>
+                <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                <p>@2024 Uber Technologies Inc.</p>
+                <p></p>
+            </div>  
+        </div>
+</body>
+</html>
